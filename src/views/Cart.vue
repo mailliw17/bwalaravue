@@ -7,7 +7,7 @@
                     <div class="row">
                         <div class="col-lg-12">
                             <div class="breadcrumb-text product-more text-left">
-                                 <router-link to="/home"> 
+                                 <router-link to="/"> 
                                         <i class="fa fa-home"></i> Home
                                 </router-link>
                                 <span>Shopping Cart</span>
@@ -28,7 +28,7 @@ import ShoppingCart from '@/components/ShoppingCart.vue'
 export default {
     name: 'Cart',
     components: {
-        Header,
+        Header, 
         ShoppingCart
     }
 }
